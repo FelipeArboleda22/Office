@@ -1,13 +1,12 @@
 import Login from "./components/layouts/Login"
 
 function App() {
-let usuario ='Felipe'
-let contraseña = '12345'
+let usuario ='correo electronico,telfono o Skype'
 
   return (
     <>
       <div>
-        <Login usuario = {usuario} contraseña = {contraseña}/>
+        <Login usuario = {usuario} />
       </div>
     </>
     

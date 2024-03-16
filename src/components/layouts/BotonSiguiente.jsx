@@ -1,7 +1,7 @@
 function BotonSiguiente() {
 
     return (
-        <input type="button" value="Siguiente" />
+        <input type="button" value="Siguiente" className="Boton-siguiente" />
       );
 }
 
